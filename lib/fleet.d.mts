@@ -1,0 +1,14 @@
+import type { ExpiryRow, FleetItem, FleetStatus, HealthResult } from "./types";
+export const STATUSES: FleetStatus[];
+export const PLATFORMS: string[];
+export const TESTFLIGHT_DAYS: number;
+export const WARN_DAYS: number;
+export function statusCounts(items: FleetItem[]): Record<FleetStatus, number>;
+export function filterFleet(items: FleetItem[], opts?: { needsOnly?: boolean; search?: string }): FleetItem[];
+export function validateFleet(items: unknown[]): string[];
+export function classifyResponse(r: { status: number; body?: string }): { ok: boolean; reason: string };
+export function checkShip(item: FleetItem, fetchImpl?: typeof fetch, timeoutMs?: number): Promise<HealthResult>;
+export function checkFleet(items: FleetItem[], fetchImpl?: typeof fetch, opts?: { concurrency?: number }): Promise<HealthResult[]>;
+export function statusDrift(items: FleetItem[], results: HealthResult[]): { name: string; recorded: string; observed: string; reason: string }[];
+export function testflightExpiry(items: FleetItem[], now?: Date, uploads?: Record<string, string>): ExpiryRow[];
+export function diskLevel(usedPct: number): "ok" | "warn" | "red";

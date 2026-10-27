@@ -1,0 +1,30 @@
+{
+  "name": "app-fleet-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio board for iOS and web apps: release state, uptime checks, TestFlight expiry and what each app needs next.",
+  "type": "module",
+  "engines": { "node": ">=20.11" },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test",
+    "typecheck": "tsc --noEmit",
+    "check": "node scripts/fleet-check.mjs",
+    "testflight": "node scripts/testflight.mjs"
+  },
+  "dependencies": {
+    "next": "15.5.21",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "22.20.1",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
+  }
+}

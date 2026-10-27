@@ -1,0 +1,12 @@
+[
+  { "name": "Fieldnote OS", "tagline": "The studio's local operating dashboard", "status": "local", "platform": "web", "color": "#b18cff" },
+  { "name": "Harbor Orders", "tagline": "Pickup ordering app for a neighborhood bakery", "status": "live", "platform": "ios", "url": "https://harbor-orders.example", "testflight": "2025-11-12", "color": "#ff8a3d" },
+  { "name": "Northside Members", "tagline": "Class schedule and check-in for a climbing gym", "status": "testflight", "platform": "ios", "testflight": "2025-12-05", "needs": "App Store screenshots and review notes", "color": "#9ad8ff" },
+  { "name": "Riverside Classes", "tagline": "Booking demo for a yoga studio", "status": "testflight", "platform": "ios", "testflight": "2025-10-20", "needs": "Re-sign and upload a fresh demo build before Tuesday's demo", "color": "#7ef0b2" },
+  { "name": "Tally", "tagline": "Shared expense tracker for roommates", "status": "live", "platform": "web", "url": "https://tally.example", "color": "#ffc861" },
+  { "name": "Cedar & Co. site", "tagline": "Marketing site with quote requests for a landscaper", "status": "live", "platform": "web", "url": "https://cedarandco.example", "color": "#5fbf7a" },
+  { "name": "Shelf Life", "tagline": "Pantry tracker that warns before food expires", "status": "building", "platform": "ios", "needs": "Barcode lookup API key", "color": "#e879f9" },
+  { "name": "Pitchboard", "tagline": "Offer pages for freelancers", "status": "validating", "platform": "web", "url": "https://pitchboard.example", "needs": "Three waitlist signups before building past the landing page", "color": "#ff5e5b" },
+  { "name": "Quiet Hours", "tagline": "Focus timer with a weekly report", "status": "paused", "platform": "web", "needs": "Decide: relaunch or archive", "color": "#a29aaa" },
+  { "name": "Lighthouse Notes", "tagline": "Offline notes for field crews", "status": "local", "platform": "ios", "color": "#c4b5fd" }
+]

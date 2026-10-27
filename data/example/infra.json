@@ -1,0 +1,7 @@
+{
+  "_demoNow": "2026-01-20",
+  "pending": [
+    { "what": "Barcode lookup API key for Shelf Life", "since": "2026-01-10" },
+    { "what": "App Store Connect API key for build dates", "since": "2025-12-01" }
+  ]
+}

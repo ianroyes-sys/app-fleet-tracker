@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-01-20T07:22:00Z",
+  "results": [
+    { "name": "Harbor Orders", "url": "https://harbor-orders.example", "ok": true, "status": 200, "reason": "ok", "ms": 182 },
+    { "name": "Tally", "url": "https://tally.example", "ok": false, "status": 404, "reason": "Vercel: deployment not found", "ms": 95 },
+    { "name": "Cedar & Co. site", "url": "https://cedarandco.example", "ok": true, "status": 200, "reason": "ok", "ms": 240 },
+    { "name": "Pitchboard", "url": "https://pitchboard.example", "ok": true, "status": 200, "reason": "ok", "ms": 131 }
+  ]
+}
